@@ -1,10 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Navbar from "./components/Nav/Navbar";
 import Footer from "./components/Footer/Footer";
 import './components/Main/main.css';
 
 const control = () => {
     return (<div>
+              <Helmet>
+        <meta charSet="utf-8" />
+        <title>Контроль знаний</title>
+      </Helmet>
         <Navbar />
         <div className="main">
             <div className="main_item">

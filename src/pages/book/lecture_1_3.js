@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Navbar from "../components/Nav/Navbar";
 import Footer from "../components/Footer/Footer";
 import Button from "../components/Button/Button";
@@ -8,6 +9,10 @@ import './book.css';
 const lecture_1_3 = () => {
     return (
         <div>
+              <Helmet>
+        <meta charSet="utf-8" />
+        <title>Тема 1.3. Материально-техническое обеспечение</title>
+      </Helmet>
             <Navbar />
             <div className="main">
                 <div className="main_item">
