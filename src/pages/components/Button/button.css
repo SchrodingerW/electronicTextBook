@@ -1,0 +1,29 @@
+.fixed-btn {
+    position: fixed;
+    top: 45%;
+    right: 3%;
+    background: #F5F5F5;
+    width: 50px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px #DCDCDC;
+    cursor: pointer;
+}
+
+.fixed-rigth {
+    right: 3%;
+}
+
+.fixed-left {
+    left: 3%;
+}
+
+.fixed-btn:active {
+    box-shadow: 0 0;
+}
+
+.button {
+    width: 25px;
+}

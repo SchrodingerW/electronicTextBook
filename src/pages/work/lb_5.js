@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from "../components/Nav/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import Button from "../components/Button/Button";
 import './lb.css';
-
 const lb_1 = () => {
     return (<div>
         <Navbar />

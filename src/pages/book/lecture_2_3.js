@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Nav/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import Button from "../components/Button/Button";
 import './book.css';
 

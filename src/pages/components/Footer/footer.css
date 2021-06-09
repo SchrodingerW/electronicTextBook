@@ -1,0 +1,12 @@
+.footer_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    background: black;
+    color: #fff;
+}
+
+.footer_item {
+    padding: 10px 15px;
+    font-size: 20px;
+}

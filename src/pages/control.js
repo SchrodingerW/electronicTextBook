@@ -1,57 +1,26 @@
 import React from "react";
-import styled from 'styled-components';
 import Navbar from "./components/Nav/Navbar";
-import Footer from "./components/Footer";
-
-const StyledContol = styled.div`
-.main {
-    display: flex;
-    justify-content: center;
-    color: rgb(0, 0, 0);
-}
-
-.h2_main, .h3_main, .img_main {
-    text-align: center;
-}
-
-.h2_main .h5_main{
-    margin-top: 75px;
-}
-
-ol, ul {
-    margin-left: 50px;
-    margin-bottom: 0;
-}
-
-.h3_main {
-    margin: 15px 0px 17px 0px;
-    margin-top: 10px;
-}
-
-.charter {
-    margin: 0px 165px 0px 165px;
-    text-align: justify;
-}
-`
+import Footer from "./components/Footer/Footer";
+import './components/Main/main.css';
 
 const control = () => {
-    return (<StyledContol>
+    return (<div>
         <Navbar />
         <div className="main">
             <div className="main_item">
-                <h2 className="h2_main">Контроль знаний</h2>
+                <h2 className="h2_center">Контроль знаний</h2>
                 <div className="charter">
-                <b>Перечень планируемых результатов обучения по дисциплине,соотнесенных с планируемыми результатами освоения ООП:</b>
-<br></br>
+                    <b>Перечень планируемых результатов обучения по дисциплине,соотнесенных с планируемыми результатами освоения ООП:</b>
+                    <br></br>
                     Процесс обучения по дисциплине направлен на формирование следующих компетенций:<br></br>
-                    <ul>
+                    <ul className="ol_ul_control">
                         <li>способность участвовать в настройке и наладке программно-аппаратных комплексов</li>
                         <li>способность проверять техническое состояние вычислительного оборудования и
                         осуществлять необходимые профилактические процедуры</li>
                         <li>способность составлять инструкции по эксплуатации оборудования.</li>
                     </ul>
 В результате обучения по дисциплине, обучающийся должен:<br></br>
-знать:<br></br><ul>
+знать:<br></br><ul className="ol_ul_control">
                         <li>структуру и виды ЭВМ;</li>
                         <li>контролировать работу подключения и настраивания модулей ЭВМ и периферийных
 оборудований;</li>
@@ -64,7 +33,7 @@ const control = () => {
 работоспособности;</li>
                         <li>способы выявления неисправностей на рабочих станциях</li>
                     </ul>
-уметь:<br></br><ul>
+уметь:<br></br><ul className="ol_ul_control">
                         <li>применять теоретические знания на практике;</li>
                         <li>проводить активную профилактику компонентов ПК;</li>
                         <li>создавать образ системного диска при резервном копировании;</li>
@@ -76,7 +45,7 @@ const control = () => {
                         <li>восстановление работоспособности вычислительного оборудования;</li>
                         <li>проводить резервное копирование и восстановление данных.</li>
                     </ul>
-владеть навыками:<br></br><ul>
+владеть навыками:<br></br><ul className="ol_ul_control">
                         <li>установкой модулей ЭВМ и периферийного оборудования;</li>
                         <li>методами модернизации ЭВМ;</li>
                         <li>методами резервного копирования и восстановления данных;</li>
@@ -84,8 +53,8 @@ const control = () => {
 задач;</li>
                         <li>методами технического обслуживания RAID-массивов.</li>
                     </ul>
-                    <h4 className="h3_main">Экзаменационные вопросы:</h4>
-                    <ol>
+                    <h4 className="h3_center">Экзаменационные вопросы:</h4>
+                    <ol className="ol_ul_control">
                         <li>Профилактическое обслуживание СВТ.</li>
                         <li>Материально-техническое обеспечение.</li>
                         <li>Системы автоматического восстановления и диагностирования.</li>
@@ -106,7 +75,7 @@ const control = () => {
             </div>
         </div >
         <Footer />
-    </StyledContol >
+    </div >
     )
 }
 

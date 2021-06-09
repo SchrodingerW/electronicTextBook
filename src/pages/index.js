@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Nav/Navbar";
 import Main from "./components/Main/Main";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import './index.css';
 import './bootstrap.min.css';
 
