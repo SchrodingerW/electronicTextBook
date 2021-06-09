@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.h2_main, .h3_main, .img_main {
+    text-align: center;
+}
+
+.h2_main {
+    margin-top: 75px;
+}
+
+ol, ul {
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.h3_main {
+    margin: 15px 0px 17px 0px;
+    margin-top: 10px;
+}
+
+.charter {
+    margin: 0px 165px 0px 165px;
+    text-align: justify;
+}
