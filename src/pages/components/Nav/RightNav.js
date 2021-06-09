@@ -12,18 +12,14 @@ const Ul = styled.ul`
     text-decoration: none;
     color:black;
   }
-  ${'' /* .links:active, .links:hover, .links {
-    text-decoration: none;
-    color: black;
-  } */}
-  .links {
+  .links_nav {
 	position: relative;
 	color: black; /*задаём цвет ссылки*/
 	cursor: pointer;
 	line-height: 1; /*задаём высоту строки*/
 	text-decoration: none; /*убираем подчёркивание*/
 }
-.links:after {
+.links_nav:after {
 	display: block;
 	position: absolute;
 	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
@@ -34,8 +30,8 @@ const Ul = styled.ul`
 	transition: width 0.3s ease-out; /*задаём время анимации*/
 }
 
-.links:hover:after,
-.links:focus:after {
+.links_nav:hover:after,
+.links_nav:focus:after {
 	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
   @media (max-width: 768px) {
@@ -50,19 +46,19 @@ const Ul = styled.ul`
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
-    .links:active, .links:hover, .links {
+    .links_nav:active, .links_nav:hover, .links_nav {
     text-decoration: none;
-    color: #fff;
+    color: white;
   }
 `;
 
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li><Link to="/" className="links">Главная</Link></li>
-      <li><Link to="/book" className="links">Теоретические материалы</Link></li>
-      <li><Link to="/work" className="links">Практикум</Link></li>
-      <li><Link to="/control" className="links">Контроль знаний</Link></li>
+      <li><Link to="/" className="links_nav">Главная</Link></li>
+      <li><Link to="/book" className="links_nav">Теоретические материалы</Link></li>
+      <li><Link to="/work" className="links_nav">Практикум</Link></li>
+      <li><Link to="/control" className="links_nav">Контроль знаний</Link></li>
       <li></li>
       <li></li>
       <li></li>
