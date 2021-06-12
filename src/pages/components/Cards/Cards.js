@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Card from "./CardsUI";
-import Card1 from "./card1.png";
-import Card2 from "./card2.png";
+import Card1 from "./card3.png";
+import Card2 from "./card3.png";
 import Card3 from "./card3.png";
 import './cards.css';
 
