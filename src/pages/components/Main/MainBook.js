@@ -13,10 +13,11 @@ const MainBook = () => {
                     <div className="main_charter_point"><Link to="/book/lecture_1_1" className="links">Тема 1.1. Типовая система технического и профилактического обслуживания</Link></div>
                     <div className="main_charter_point"><Link to="/book/lecture_1_2" className="links">Тема 1.2. Периодичность профилактического обслуживания. Организация профилактических работ</Link></div>
                     <div className="main_charter_point"><Link to="/book/lecture_1_3" className="links">Тема 1.3. Материально-техническое обеспечение</Link></div>
-                    <div className="main_charter_point"><Link to="/book/lecture_1_4" className="links">Тема 1.4. Системы автоматического восстановления и диагностирования</Link></div>
-                    <div className="main_charter_point"><Link to="/book/lecture_1_5" className="links">Тема 1.5. Взаимодействие и сравнительные характеристики систем автоматического контроля, диагностирования и восстановления</Link></div>
-                    <div className="main_charter_point"><Link to="/book/lecture_1_6" className="links">Тема 1.6. Виды программного, аппаратного и комбинированного контроля</Link></div>
-                    <div className="main_charter_point"><Link to="/book/lecture_1_7" className="links">Тема 1.7. Диагностические программы общего и специального назначения</Link></div>
+                    <div className="main_charter_point"><Link to="/book/lecture_1_4" className="links">Тема 1.4. Системы автоматического восстановления</Link></div>
+                    <div className="main_charter_point"><Link to="/book/lecture_1_5" className="links">Тема 1.5. Системы автоматического диагностирования</Link></div>
+                    <div className="main_charter_point"><Link to="/book/lecture_1_6" className="links">Тема 1.6. Взаимодействие и сравнительные характеристики систем автоматического контроля, диагностирования и восстановления</Link></div>
+                    <div className="main_charter_point"><Link to="/book/lecture_1_7" className="links">Тема 1.7. Виды программного, аппаратного и комбинированного контроля</Link></div>
+                    <div className="main_charter_point"><Link to="/book/lecture_1_8" className="links">Тема 1.8. Диагностические программы общего и специального назначения</Link></div>
                 </div>
                 <div className="charter">
                     <div className="main_charter">Раздел 2. Текущее техническое обслуживание сети</div>
