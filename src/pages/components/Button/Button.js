@@ -1,8 +1,8 @@
 import React from "react";
 import './button.css';
 import { Link } from 'gatsby';
-import Up from './up.png';
-import Down from './down.png';
+import Up from './up.jpg';
+import Down from './down.jpg';
 
 const Button = props => {
     return (

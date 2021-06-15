@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Burger from './Burger';
-import LogoImg from './logo.png';
+import LogoImg from './logo.jpg';
 
 const Nav = styled.nav`
   position:fixed;
