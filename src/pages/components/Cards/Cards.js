@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "./CardsUI";
-import Card1 from "./card1.jp2";
-import Card2 from "./card2.jp2";
-import Card3 from "./card3.jp2";
+import Card1 from "./card1.jpg";
+import Card2 from "./card2.jpg";
+import Card3 from "./card3.jpg";
 import './cards.css';
 
 class Cards extends Component {
