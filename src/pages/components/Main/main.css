@@ -4,8 +4,25 @@
     color: rgb(0, 0, 0);
 }
 
+.main_404 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    min-height: 717px;
+}
+
+.h1_404 {
+    margin: auto;
+}
+
 .h2_center, .img_main, .h3_center {
     text-align: center;
+}
+
+@media only screen and  (max-width: 768px) {
+    body {
+        height: 200px;
+    }
 }
 
 .h2_center {
