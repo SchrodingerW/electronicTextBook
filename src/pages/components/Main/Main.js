@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div className="main">
             <div className="main_item">
-                <h2 className="h2_center">Электронное учебник по дисциплине<br></br>«Техническое обеспечение ЭВМ»</h2>
+                <h2 className="h2_center">Электронный учебник по дисциплине<br></br>«Техническое обеспечение ЭВМ»</h2>
                 <div className="img_main"><img src={MainImg} alt="" /></div>
                 <h3 className="h3_left">Цель и задачи обучения по дисциплине:</h3>
                 <div className="main_text">Целью дисциплины «Техническое обслуживание ЭВМ» является формирование теоретических основ и практических навыков технического обслуживания ЭВМ.</div>

@@ -7,6 +7,7 @@ const MainWork = () => {
         <div className="main">
             <div className="main_item">
                 <h2 className="h2_center">Практикум</h2>
+                
                 <div className="charter">
                     <div className="main_charter">Лабораторные работы</div>
                     <div className="main_charter_point"><Link to="/work/lb_1" className="links">Лабораторная работа №1. Профилактическое обслуживание СВТ</Link></div>

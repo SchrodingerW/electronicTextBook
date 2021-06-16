@@ -18,6 +18,7 @@ const MainBook = () => {
                     <div className="main_charter_point"><Link to="/book/lecture_1_6" className="links">Тема 1.6. Взаимодействие и сравнительные характеристики систем автоматического контроля, диагностирования и восстановления</Link></div>
                     <div className="main_charter_point"><Link to="/book/lecture_1_7" className="links">Тема 1.7. Виды программного, аппаратного и комбинированного контроля</Link></div>
                     <div className="main_charter_point"><Link to="/book/lecture_1_8" className="links">Тема 1.8. Диагностические программы общего и специального назначения</Link></div>
+                    <div className="main_charter_point"><Link to="/book/questions_1" className="links">Контрольные вопросы</Link></div>
                 </div>
                 <div className="charter">
                     <div className="main_charter">Раздел 2. Текущее техническое обслуживание сети</div>
@@ -25,10 +26,12 @@ const MainBook = () => {
                     <div className="main_charter_point"><Link to="/book/lecture_2_2" className="links">Тема 2.2. Конфликты при установке оборудования и способы их устранения</Link></div>
                     <div className="main_charter_point"><Link to="/book/lecture_2_3" className="links">Тема 2.3. Типовые алгоритмы поиска неисправностей</Link></div>
                     <div className="main_charter_point"><Link to="/book/lecture_2_4" className="links">Тема 2.4. Модернизация и конфигурирование ЭВМ с учетом решаемых задач</Link></div>
+                    <div className="main_charter_point"><Link to="/book/questions_2" className="links">Контрольные вопросы</Link></div>
                 </div>
                 <div className="charter">
                     <div className="main_charter">Раздел 3. Обслуживание серверов и рабочих станций</div>
                     <div className="main_charter_point"><Link to="/book/lecture_3_1" className="links">Тема 3.1. Обслуживание дисковых систем серверов и способы выявления неисправностей на рабочих станциях</Link></div>
+                    <div className="main_charter_point"><Link to="/book/questions_3" className="links">Контрольные вопросы</Link></div>
                 </div>
             </div>
         </div>

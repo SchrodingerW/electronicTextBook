@@ -18,7 +18,7 @@ const lecture_2_4 = () => {
                 <div className="main_item">
                 <h2 className="h2_main">Раздел 2. Текущее техническое обслуживание сети</h2>
                     <h3 className="h3_main">Тема 2.4. Модернизация и конфигурирование ЭВМ с учетом решаемых задач</h3>
-                    <Button link_left="/book/lecture_2_3" link_rigth="/book/lecture_3_1" />
+                    <Button link_left="/book/lecture_2_3" link_rigth="/book/questions_2" />
                     <div className="charter">
                     Темпы развития компьютерных технологий растут с каждым
 годом, опережая самые оптимистические прогнозы, поэтому

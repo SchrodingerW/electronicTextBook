@@ -61,7 +61,7 @@ const control = () => {
                     </ul> */}
                     <h4 className="h3_center">Контрольный тест</h4>
                     <Test_1/>
-                    <h4 className="h3_center">Экзаменационные вопросы:</h4>
+                    <h4 className="h3_center">Экзаменационные вопросы</h4>
                     <ol className="ol_ul_control">
                         <li>Профилактическое обслуживание СВТ.</li>
                         <li>Материально-техническое обеспечение.</li>
