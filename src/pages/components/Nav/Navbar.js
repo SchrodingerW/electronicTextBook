@@ -7,7 +7,6 @@ import LogoImg from './logo.jpg';
 const Nav = styled.nav`
   position:fixed;
   width: 100%;
-  ${'' /* background:#6d76f7; */}
   background:#fff;
   height: 55px;
   border-bottom: 2px solid #f1f1f1;
