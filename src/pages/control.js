@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Navbar from "./components/Nav/Navbar";
 import Footer from "./components/Footer/Footer";
-import Test_1 from "./components/Control/test_1";
+import Test from "./components/Control/Test_1";
 import './components/Main/main.css';
 
 const control = () => {
@@ -16,7 +16,7 @@ const control = () => {
             <div className="main_item">
                 <h2 className="h2_center">Контроль знаний</h2>
                 <h4 className="h3_center">Итоговый тест</h4>
-                <Test_1 />
+                <Test />
                 <h4 className="h3_center">Экзаменационные вопросы</h4>
                 <ol className="ol_ul_control">
                     <li>Профилактическое обслуживание СВТ.</li>
