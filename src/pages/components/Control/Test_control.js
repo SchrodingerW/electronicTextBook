@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./test.css";
 
-function Test_1() {
+function Test_control() {
   const questions = [
     {
       questionText: "Какое ТО должно выполняться независимо от технического состояния СВТ?",
@@ -182,4 +182,4 @@ function Test_1() {
   )
 }
 
-export default Test_1
+export default Test_control

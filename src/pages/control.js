@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Navbar from "./components/Nav/Navbar";
 import Footer from "./components/Footer/Footer";
-import Test from "./components/Control/Test_1";
+import Test from "./components/Control/Test_control";
 import './components/Main/main.css';
 
 const control = () => {
