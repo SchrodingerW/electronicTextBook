@@ -19,6 +19,9 @@ const Nav = styled.nav`
     margin-top:-13px;
     margin-left:150px;
   }
+  @media (max-width: 768px){
+    .logo{margin-left:0px !important;}
+  }
 `
 
 const Navbar = () => {
