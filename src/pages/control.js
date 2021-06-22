@@ -12,7 +12,7 @@ const control = () => {
             <title>Контроль знаний</title>
         </Helmet>
         <Navbar />
-        <div className="main">
+        <div className="main" >
             <div className="main_item">
                 <h2 className="h2_center">Контроль знаний</h2>
                 <h4 className="h3_center">Итоговый тест</h4>
