@@ -17,7 +17,7 @@ const lb_3 = () => {
                 <h2 className="h2_main">Лабораторная работа №3</h2>
                 <h3 className="h3_main">Cоздание образа диска</h3>
                 <Button link_left="/work/lb2" link_rigth="/work/lb_4" />
-                <div className="charter">
+                <div className="charter_lb">
                     <b>Цель:</b> научиться пользоваться загрузочным диском Асгоnis True Image для создания резервной копии диска и восстановления данных.<br></br>
                     <b>Задание: </b>создать образ системного диска «виртуальной машины»; произвести изменения на нем; восстановить его исходное состояние.<br></br>
                     <b>Перечень используемого ПО:</b> «виртуальная машина» VirtualBox, Acronis True Image, Opera.<br></br>

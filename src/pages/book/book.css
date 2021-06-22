@@ -22,7 +22,7 @@ ol, ul {
     margin-top: 10px;
 }
 
-.charter {
+.charter_book {
     margin: 0px 165px 0px 165px;
 }
 
@@ -31,7 +31,7 @@ ol, ul {
     margin: 17px 0px 17px 0px;
 }
 
-.table_top{
+.table_top {
     margin: 10px 0px 10px 0px;
 }
 
@@ -75,9 +75,15 @@ ol, ul {
 }
 
 @media (max-width: 767px) {
+    .charter_book {
+        margin: 0px 15px 0px 15px !important;
+    }
+    .img_main_media {
+        width: 350px !important;
+    }
     .resp-tab {
         display: block;
-        width: 100%;
+        width: 450px;
     }
     .resp-tab thead, .resp-tab tbody, .resp-tab thead th {
         display: block;

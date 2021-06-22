@@ -17,7 +17,7 @@ const lb_1 = () => {
                 <h2 className="h2_main">Лабораторная работа №4</h2>
                 <h3 className="h3_main">Cоздание LiveCD на базе Windows</h3>
                 <Button link_left="/work/lb_3" link_rigth="/work/lb_5" />
-                <div className="charter">
+                <div className="charter_lb">
 
                     <b> Цель:</b> научиться создавать загрузочный диск на базе операционной системы Windows .<br></br>
                     <b> Задание:</b>  создать образ загрузочного диска на базе ОС Windows и проверить его работоспособность в «виртуальной машине».<br></br>

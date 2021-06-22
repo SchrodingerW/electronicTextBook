@@ -22,7 +22,7 @@ ol, ul {
     margin-top: 10px;
 }
 
-.charter {
+.charter_lb {
     margin: 0px 165px 0px 165px;
 }
 
@@ -38,6 +38,7 @@ ol, ul {
     background-color: white;
     box-shadow: 0px 1px 4px rgb(0 0 0 / 20%)
 }
+
 .resp-tab td, .resp-tab th {
     text-align: center;
     padding: 8px;
@@ -45,28 +46,34 @@ ol, ul {
     border: none;
     font-family: Verdana, sans-serif;
 }
+
 .resp-tab td {
     font-size: 13px;
     border-right: 1px solid #E6E4E4;
 }
+
 .resp-tab th {
     color: #ffffff;
     background: #8e9dab;
 }
+
 .resp-tab th:nth-child(odd) {
     background: #8e9dab;
 }
+
 .resp-tab tr:nth-child(even) {
     background: #F8F8F8;
 }
+
 @media (max-width: 767px) {
+    .charter_lb {
+        margin: 0px 15px 0px 15px !important;
+    }
     .resp-tab {
         display: block;
-        width: 100%;
+        width: 450px;
     }
-    .resp-tab thead,
-    .resp-tab tbody,
-    .resp-tab thead th {
+    .resp-tab thead, .resp-tab tbody, .resp-tab thead th {
         display: block;
     }
     .resp-tab thead {

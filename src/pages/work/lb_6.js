@@ -17,7 +17,7 @@ const lb_1 = () => {
                 <h2 className="h2_main">Лабораторная работа №6</h2>
                 <h3 className="h3_main">Диагностические программы специального назначения</h3>
                 <Button link_left="/work/lb_5" link_rigth="/work/lb_7" />
-                <div className="charter">
+                <div className="charter_lb">
                     <b>Цель:</b> научиться пользоваться диагностическими программами специального назначения.<br></br>
                     <b>Задание:</b> провести диагностирование и тестирование компонентов ПК при помощи диагностических программ специального назначения.<br></br>
                     <b>Перечень используемого ПО:</b> Passmark KeyboardTest, Nokia DisplayTest, CPU-Z, SuperPi, PowerStrip, Memtest86, MHDD.

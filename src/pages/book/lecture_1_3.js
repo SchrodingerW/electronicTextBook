@@ -31,7 +31,7 @@ const lecture_1_3 = () => {
                     <h2 className="h2_main">Раздел 1. Организация технического обслуживания ЭВМ</h2>
                     <h3 className="h3_main">Тема 1.3. Материально-техническое обеспечение</h3>
                     <Button link_left="/book/lecture_1_2" link_rigth="/book/lecture_1_4" />
-                    <div className="charter">
+                    <div className="charter_book">
                         Одним из наиболее важных вопросов при техническом обслуживании, диагностировании и ремонте СВТ является обеспечение обслуживающего персонала материальными ресурсами в
 нужном ассортименте, количестве и в нужные сроки.<br></br>
 <b>Материально-техническое обеспечение</b> — это одна из форм
@@ -59,7 +59,7 @@ const lecture_1_3 = () => {
 технологического оснащения и в стационарных условиях.<br></br>
 
 
-                        <div className="h3_main"><img src={imgBook_1_4} alt="" /></div>
+                        <div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_4} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.4.</b> Стандартный набор инструментов</div>
 
                         Для поиска и устранения небольших неисправностей и ремонта ПК пользователю достаточно иметь небольшой набор
@@ -83,7 +83,7 @@ const lecture_1_3 = () => {
 которому могут быть чувствительны некоторые элементы СВТ
 (например жесткие диски).
 
-<div className="h3_main"><img src={imgBook_1_5} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_5} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.5.</b> Пинцет</div>
 
                         <b>Пинцет</b> — приспособление для манипуляций с мелкими
@@ -96,7 +96,7 @@ const lecture_1_3 = () => {
 удобно вытаскивать из ПК различные мелкие крепежные
 элементы, не разбирая полностью компьютер.
 
-<div className="h3_main"><img src={imgBook_1_6} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_6} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.6.</b> Цанговый зажим</div>
 
 
@@ -116,7 +116,7 @@ const lecture_1_3 = () => {
 импульсов.
 
 
-<div className="h3_main"><img src={imgBook_1_7} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_7} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.7.</b> Плата POST</div>
 Для измерения напряжения и сопротивления в электрических сетях обычно используют цифровые мультиметры (рис.
 1.8). <b>Мультиметр</b> — это электронный измерительный прибор,
@@ -126,7 +126,7 @@ const lecture_1_3 = () => {
 цифровые мультиметры, и не только потому, что они имеют
 компактные размеры и более точны.
 
-<div className="h3_main"><img src={imgBook_1_8} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_8} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.8.</b> Цифровой мультиметр</div>
 
                         У любого мультиметра имеются два измерительных щупа. Их
@@ -164,9 +164,9 @@ const lecture_1_3 = () => {
 сигналов, сравнить сигналы на выводах какой-либо
 интегральной схемы с сигналами на исправной микросхеме и
 найти вышедший из строя компонент.
-<div className="h3_main"><img src={imgBook_1_9} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_9} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.9.</b> Логические пробники</div>
-                        <div className="h3_main"><img src={imgBook_1_10} alt="" /></div>
+                        <div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_10} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.10.</b> Генераторы импульсов</div>
 
                         Вместе с логическим пробником обычно используется
@@ -179,7 +179,7 @@ const lecture_1_3 = () => {
 <li>Для проверки правильности подключения электропроводки к розетке используют <b>тестер сетевой розетки</b> (рис. 1.11). Этот прибор относительно дешев и прост в применении. Тестер сетевой розетки вставляют в электрическую розетку и по
 свечению трех индикаторов определяют правильность
 подключения проводов.
-<div className="h3_main"><img src={imgBook_1_11} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_11} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.11.</b> Тестер сетевой розетки</div></li>
                         <li>Различные химические препараты используются для
 протирки контактов, набор тампонов — для протирки контактов,
@@ -195,7 +195,7 @@ const lecture_1_3 = () => {
 погнуть их выводы, необходимы специальные приспособления
 для извлечения микросхем из гнезд и для их установки (рис.
 1.12).
-<div className="h3_main"><img src={imgBook_1_12} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_12} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.12.</b> Приспособления для извлечения микросхем из гнезд</div></li>
                         <li>Для проверки последовательных и параллельных портов
 применяются специальные <b>тестовые разъемы</b> (рис. 1.13). Если
@@ -204,7 +204,7 @@ const lecture_1_3 = () => {
 параллельных портов будут подаваться на входные контакты
 (порт «замыкается сам на себя»), что позволяет проверить работу
 порта при помощи специальной программы.
-<div className="h3_main"><img src={imgBook_1_13} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_13} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.13.</b> Внешний вид и внутреннее устройство типичных тестовых разъемов</div>
 Существует несколько типов тестовых разъемов. Чаще всего
 используются разъемы для 9- и 25-контактных последовательных портов и для 25-контактного параллельного порта. Существуют и универсальные разъемы, объединяющие в себе все три разновидности, что очень удобно. (Необходимо применять только тестовые разъемы, которые рекомендуются
@@ -220,13 +220,13 @@ const lecture_1_3 = () => {
     <li>алюминиевый контейнер с губкой для чистки насадок;</li>
     <li>пластиковый упаковочный контейнер.</li>
 </ul>
-<div className="h3_main"><img src={imgBook_1_14} alt="" /></div>
+<div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_14} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.14.</b> Комплект для пайки</div>
                         Паяльные принадлежности, кроме этого стандартного
 набора, должны включать в себя отсос для припоя и заземляющий браслет для снятия статического электричества.
 Паяльник также должен иметь заземление.</li>
                         <li><b>Клещи обжимные</b> (рис. 1.15) необходимы для монтажа коннекторов (например стандарта RJ-45) на кабель, используемый при прокладке локальных вычислительных сетей (ЛВС).
-                        <div className="h3_main"><img src={imgBook_1_15} alt="" /></div>
+                        <div className="h3_main"><img className="img_main_media" className="img_main_media" src={imgBook_1_15} alt="" /></div>
                         <div className="h3_main"><b>Рис. 1.15.</b> Клещи обжимные</div>
                         </li>
                         <li>

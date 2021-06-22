@@ -17,7 +17,7 @@ const Questions_1 = () => {
                 <div className="main_item">
                     <h2 className="h2_main">Раздел 1. Организация технического обслуживания ЭВМ</h2>
                     <Button link_left="/book/lecture_1_8" link_rigth="/book/lecture_2_1" />
-                    <div className="charter">
+                    <div className="charter_book">
                         <h4 className="h3_main">Контрольные вопросы</h4>
                         <ol>
                             <li>Что включает в себя ТО СВТ?</li>

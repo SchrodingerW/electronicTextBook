@@ -18,7 +18,7 @@ const Questions_2 = () => {
                 <div className="main_item">
                     <h2 className="h2_main">Раздел 2. Текущее техническое обслуживание сети</h2>
                     <Button link_left="/book/lecture_2_4" link_rigth="/book/lecture_3_1" />
-                    <div className="charter">
+                    <div className="charter_book">
                     <h4 className="h3_main">Контрольные вопросы</h4>
                         <ol>
                             <li>Каким прибором можно протестировать локальную сеть?</li>

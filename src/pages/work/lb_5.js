@@ -16,7 +16,7 @@ const lb_1 = () => {
                 <h2 className="h2_main">Лабораторная работа №5</h2>
                 <h3 className="h3_main">Диагностические программы общего назначения</h3>
                 <Button link_left="/work/lb_4" link_rigth="/work/lb_6" />
-                <div className="charter">
+                <div className="charter_lb">
 <b> Цель:</b> научиться пользоваться диагностической программой общего назначения Lavalys Everest Home Edition (AIDA64).<br></br>
 <b> Задание:</b>  провести диагностирование и тестирование компонентов ПК при помощи диагностической программы общего назначения Lavalys Everest Home Edition (AIDA64).<br></br>
 <b> Перечень используемого ПО:</b>  Lavalys Everest Home Edition (AIDA64).<br></br>

@@ -17,7 +17,7 @@ const Questions_3 = () => {
                 <div className="main_item">
                     <h2 className="h2_main">Раздел 3. Обслуживание серверов и рабочих станций</h2>
                     <Button link_left="/book/lecture_3_1" link_rigth="/book" />
-                    <div className="charter">
+                    <div className="charter_book">
                     <h4 className="h3_main">Контрольные вопросы</h4>
                         <ol>
                             <li>Что такое RAID?</li>
