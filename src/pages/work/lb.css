@@ -71,7 +71,7 @@ ol, ul {
     }
     .resp-tab {
         display: block;
-        width: 450px;
+        width: 300px;
     }
     .resp-tab thead, .resp-tab tbody, .resp-tab thead th {
         display: block;
